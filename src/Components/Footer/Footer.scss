@@ -1,0 +1,21 @@
+footer {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 0px;
+    margin: 15px;
+    color: grey;
+    font-size: 20px;
+
+    .days,
+    .hours,
+    .minutes {
+        display: none;
+    }
+}
+
+@media (max-width: 935px) {
+    footer {
+        display: none;
+    }
+}
